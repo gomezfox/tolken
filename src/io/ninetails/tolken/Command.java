@@ -4,5 +4,7 @@ public interface Command {
     public abstract void execute();
 
     public abstract Command parse(String code, int position);
+    @Override
+    public String toString();
 
 }
