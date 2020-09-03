@@ -6,6 +6,9 @@ public class Program {
     ArrayList<Section> sections;
     Section defaultSection;
     public void run() {
-        // runs codingUnits
+        // runs sections
+        for (Section section : sections) {
+            System.out.println(section.toString());
+        }
     }
 }
